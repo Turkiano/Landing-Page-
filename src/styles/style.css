@@ -1,7 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
 h1 {
-    color:blue
+    color: blak;
 }
 
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+
+}
+
+a {text-decoration: none;
+
+}
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+}
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px rgba(0, 0, 0, 22);
+    transition: .4s;
+    background: #f2f2f2;
+
+.content.hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
+    transform: translate(0px, -8px);
+}
+  
+ img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.content-text {
+    align-text: left;
+    color: blue;
+    padding-top: 0 8px;
+
+}
+
+}
 .navigation {
     display: inline-block
 }
@@ -16,3 +84,81 @@ span {
 
     display: inline-block;
 }
+
+.hero-image {
+
+    background-image: url("../images/comingsoon.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
+h3 {
+    text-align: center;
+}
+  
+.product-showcase{
+
+display: flex;
+}
+.product {
+width:  200px;
+height: 200px;
+}
+
+.feedback-main {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-main li {
+    padding-top: 5px;
+}
+
+.fa {
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked {
+    color: #ff9f43;
+}
+
+.fa:hover {
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100px;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 60px;
+
+}
+
+.buy-1 {
+    background: #2183a2;
+}
+
+
+
