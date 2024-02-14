@@ -1,0 +1,18 @@
+h1 {
+    color:blue
+}
+
+.navigation {
+    display: inline-block
+}
+
+
+span {
+    display: inline-block;
+}
+
+
+.navigation ul li {
+
+    display: inline-block;
+}
