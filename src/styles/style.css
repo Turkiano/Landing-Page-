@@ -141,23 +141,23 @@ height: 200px;
     transition: .6s;
 }
 
-button {
+button.buy-1 {
     text-align: center;
     font-size: 24px;
     color: #fff;
-    width: 100px;
+    width: 100%;
     padding: 15px;
     border: 0;
     outline: none;
     cursor: pointer;
     margin-top: 5px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
 
 }
 
 .buy-1 {
-    background: #2183a2;
+    background: #e10bc1;
 }
 
 
