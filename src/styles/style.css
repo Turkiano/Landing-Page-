@@ -95,6 +95,8 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 64px;
+    
 }
 
 .hero-text {
@@ -107,6 +109,8 @@ span {
 
 h3 {
     text-align: center;
+    padding: 0;
+   
 }
   
 .product-showcase{
@@ -161,6 +165,69 @@ button.buy-1 {
 .buy-1 {
     background: #c7a602;
 }
+
+
+
+.testimonials {
+    padding: 40px;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    margin: 26px;
+    background: #ff9f43;
+    margin: 26px auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #FFF;
+    margin: 15px;
+    
+
+
+}
+
+.testimonials{
+    padding: 30px;
+    background: none;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+.name{
+    font-size: 20px;
+    text-transform:uppercase;
+    margin: 20px 0;
+}
+
+
+
 
 @media(max-width: 1231px) {
     .content {
