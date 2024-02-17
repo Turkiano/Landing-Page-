@@ -451,7 +451,7 @@ button.buy-1 {
 
 }
 
-@media(max-width: 375px) {
+@media(max-width: 555px) {
     .hero-text {
         left: 39%;
         top: 43%;
