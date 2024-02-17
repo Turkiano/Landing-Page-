@@ -1,4 +1,4 @@
-i<!-- index.html -->
+<!-- index.html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,24 +11,31 @@ i<!-- index.html -->
 </head>
 
 <body>
-  <header>
-    <span>Logo</span>
-    <nav class="navigation">
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#">Perfume</a></div>
       <ul>
-        <li a href ="index.html">home</li>
-        <li a href ="gallary.html">gallary</li>
-        <li a href = "contact.html">contact</li>
-      
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <button><a href="#">SignIn</a></button>
+        <button><a href="#">SignUp</a></button>
       </ul>
-    </nav>
+
+    </div>
+  </nav>
+
+ 
 
 
     <div class="hero-image">
       <div class="hero-text">
-      <h1>DO NOT MISS <br>THE BLACK FRIDAY DISCOUNT</h1>
+        <div class="discount-text">
+      <h1 class="discounts89">89%</h1>  
+      <h1> BLACK<br> FRIDAY <br>DISCOUNT</h1></div>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Minima quasi eligendi repudiandae sint expedita facere eos, <br>
         velit placeat sed odio? Natus vel, esse eius non beatae cumque<br> laboriosam praesentium recusandae.</p>
-      <button type="button">89% discounts</button>
+        <button><a href="#">OrderNow</a></button>
       </div>
     </div>
 
@@ -42,7 +49,7 @@ i<!-- index.html -->
     <div class="gallary">
 
       <div class="content">
-      <img src="src/images/anotherimage1.png"alt="product1">
+      <img src="src/images/anotherimage2.png"alt="product1">
       <h3>Perfume Name</h3>
       <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Pariatur nisi minus, sint, esse provident nam sapiente</p>
       <h6>SAR 578.99</h6>
@@ -59,7 +66,7 @@ i<!-- index.html -->
       </div>
 
       <div class="content">
-        <img src="src/images/anotherimage2.png"alt="product1">
+        <img src="src/images/anotherimage1.png"alt="product1">
         <h3>Perfume Name</h3>
         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Pariatur nisi minus, sint, esse provident nam sapiente</p>
         <h6>SAR 378.99</h6>
@@ -73,6 +80,22 @@ i<!-- index.html -->
           </ul>
           <button class="buy-1">Buy Now</button>
         </div>
+
+        <div class="content">
+          <img src="src/images/anotherimage3.png"alt="product1">
+          <h3>Perfume Name</h3>
+          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Pariatur nisi minus, sint, esse provident nam sapiente</p>
+          <h6>SAR 378.99</h6>
+    
+          <ul class="feedback-main">
+            <li><i class="fa fa-star checked" ></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star "></i></li>
+            </ul>
+            <button class="buy-1">Buy Now</button>
+          </div>
     </div>
  
 <div class="testimonials">
@@ -143,15 +166,22 @@ i<!-- index.html -->
 </div>
 
     
+<section class="Newsletter">
+  <h3> Newsletter Subscribtion</h3>
+  <div class="border"></div>
+<div class="box">
+  <form action ="#">
+    <div class="form-box">
+      <input type="text" name="EmailAddress" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    
 
+    </div>
+  </form>
+</div>
+</section>
 
-
-    <section>
-      < id="newsletter">
-        <label> email</label>
-        <input
-      </div>
-    </section>
+    
   </main>
 </body>
 </html>
