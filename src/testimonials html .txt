@@ -1,0 +1,19 @@
+ <section>
+      <div id="customer-reivew">
+        <img src="customer-image.jpg">
+        <h5>Customer feedback</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat, maxime hic. Rerum distinctio nihil eveniet maxime et reiciendis hic,<br> architecto doloribus consequuntur perferendis id vitae neque voluptate dolore voluptatum doloremque.</p>
+      </div>
+
+      <div id="customer-reivew">
+        <img src="customer-image.jpg">
+        <h5>Customer feedback</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat, maxime hic. Rerum distinctio nihil eveniet maxime et reiciendis hic,<br> architecto doloribus consequuntur perferendis id vitae neque voluptate dolore voluptatum doloremque.</p>
+      </div>
+
+      <div id="customer-reivew">
+        <img src="customer-image.jpg">
+        <h5>Customer feedback</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat, maxime hic. Rerum distinctio nihil eveniet maxime et reiciendis hic,<br> architecto doloribus consequuntur perferendis id vitae neque voluptate dolore voluptatum doloremque.</p>
+      </div>
+    </section>
